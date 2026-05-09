@@ -1,0 +1,23 @@
+artifact_path: /mnt/d/Project/belajar-docker/hotel_mlops_project/mlruns/1/models/m-260042dc460445e8a520cda29dedf9ec/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-260042dc460445e8a520cda29dedf9ec
+model_size_bytes: 5322552
+model_uuid: m-260042dc460445e8a520cda29dedf9ec
+prompts: null
+run_id: 37f3b4be2a6d45089932dcb49f0b6181
+utc_time_created: '2026-05-08 13:38:14.666218'
